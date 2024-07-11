@@ -1,0 +1,20 @@
+[
+    {
+        "image": "image1.png",
+        "title": "Booki",
+        "text": "Créer des dimensions réactives pour les activités et hébergements de l'application Booki en utilisant HTML et CSS garantit que l'interface utilisateur s'adapte parfaitement à différentes tailles et résolutions d'écran.",
+        "link": "https://amalkamli.github.io/html-css-page/"
+    },
+    {
+        "image": "image2.png",
+        "title": "Scroll Banner",
+        "text": "Dynamiser le site web statique d'une imprimerie en ajoutant un carrousel interactif à l'aide de JavaScript.",
+        "link": "https://amalkamli.github.io/imprime-js/"
+    },
+    {
+        "image": "image3.png",
+        "title": "Kasa",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "link": "#"
+    }
+]
