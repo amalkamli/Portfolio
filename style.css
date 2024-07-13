@@ -94,8 +94,12 @@
     flex-direction: column;
     align-items: center;
 }
+
+.contactColumn {
+    text-align: center;
+}
 .contactColumn i {
-    color: #011009;
+    color: #0077b5; /* Couleur de l'icône LinkedIn */
 }
 /* Exemple d'ajustement de contraste */
 body {
