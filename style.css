@@ -29,6 +29,8 @@
     background: url("images/image1.jpg");
     background-size: cover;
     position: relative;
+    filter: brightness(50%);
+
 }
 /* text css above hero image*/
 .hero_title {
@@ -44,6 +46,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    text-shadow: 1px 1px 2px black;
+
 }
 
 /* about */

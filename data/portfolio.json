@@ -1,20 +1,38 @@
 [
     {
-        "image": "image1.png",
-        "title": "Booki",
-        "text": "Créer des dimensions réactives pour les activités et hébergements de l'application Booki en utilisant HTML et CSS garantit que l'interface utilisateur s'adapte parfaitement à différentes tailles et résolutions d'écran.",
-        "link": "https://amalkamli.github.io/html-css-page/"
+        "image": "image4.png",
+        "alt": "An illustration tests",
+        "title": "Tests automatiques",
+        "text": "Automatisation des tests pour une boutique en ligne : rédaction des scripts d'automatisation en JavaScript.",
+        "link": "https://github.com/amalkamli/TestsApp.git"
+    },
+    {
+        "image": "image3.png",
+        "alt": "An illustration showing react app",
+        "title": "Kasa",
+        "text": "Mise en place des divers composants React : présentation des différentes pages, navigation entre elles, fonctionnalités, et interactions avec tous les éléments interactifs.",
+        "link": "https://github.com/amalkamli/Logement-Reactapp.git"
+    },
+    {
+        "image": "image5.png",
+        "alt": "An illustration showing Js app",
+        "title": "Sophie Blue",
+        "text": "Page web dynamique avec JavaScript",
+        "link": "https://github.com/amalkamli/Portfolio-architecte-sophie-blue.git"
+    
     },
     {
         "image": "image2.png",
+        "alt": "An illustration showing Js app",
         "title": "Scroll Banner",
         "text": "Dynamiser le site web statique d'une imprimerie en ajoutant un carrousel interactif à l'aide de JavaScript.",
         "link": "https://amalkamli.github.io/imprime-js/"
     },
     {
-        "image": "image3.png",
-        "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
-    }
+        "image": "image1.png",
+        "alt": "An illustration showing css and Js app",
+        "title": "Booki",
+        "text": "Créer des dimensions réactives pour les activités et hébergements de l'application Booki en utilisant HTML et CSS garantit que l'interface utilisateur s'adapte parfaitement à différentes tailles et résolutions d'écran.",
+        "link": "https://amalkamli.github.io/html-css-page/"
+    }   
 ]
