@@ -23,7 +23,7 @@
     },
     {
         "image": "image2.png",
-        "alt": "An illustration showing Js app",
+        "alt": "An illustration showing Js banner",
         "title": "Scroll Banner",
         "text": "Dynamiser le site web statique d'une imprimerie en ajoutant un carrousel interactif à l'aide de JavaScript.",
         "link": "https://amalkamli.github.io/imprime-js/"
