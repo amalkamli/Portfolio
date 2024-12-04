@@ -49,6 +49,29 @@
     text-shadow: 1px 1px 2px black;
 
 }
+.cta-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #0078D7; /* Use your primary color */
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #005BB5; /* Darker shade on hover */
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.cta-button:active {
+  background-color: #003F7F; /* Even darker shade on click */
+}
 
 /* about */
 .imageAboutPage {
