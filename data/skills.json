@@ -2,43 +2,38 @@
     {
         "image": "html-css.jpg",
         "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS",
+        "text": "Integration of responsive and accessible interfaces, use of Figma mockups, development of CSS animations",
         "description": "An illustration showing HTML and CSS logos"
-
     },
     {
         "image": "js.jpg",
-        "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires",
+        "title": "JavaScript",
+        "text": "DOM manipulation, creation of dynamic elements, management of form data",
         "description": "An illustration showing JavaScript logo"
-
     },
     {
         "image": "react.jpg",
         "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état",
-        "description": "An illustration showing react logo"
-
+        "text": "Creation of React applications, building components, and managing their state",
+        "description": "An illustration showing React logo"
     },
     {
         "image": "gestion-de-projet.png",
-        "title": "Gestion de projet",
-        "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet",
+        "title": "Project Management",
+        "text": "Analyzing client requirements, defining a technical solution that meets functional needs, project planning",
         "description": "An illustration showing project management logo"
-
     },
     {
         "image": "optimisation-et-debug.png",
-        "title": "Optimisation et debug",
-        "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne",
-        "description": "An illustration showing fix bugs logo"
-
+        "title": "Optimization and Debugging",
+        "text": "Identifying anomalies and fixing an existing site, SEO and performance optimization, publishing a site online",
+        "description": "An illustration showing bug fixing logo"
     },
     {
         "image": "test.png",
-        "title": "Test",
-        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation des tests E2E et des API",
-        "description": "An illustration showing test skills logo"
-
+        "title": "Testing",
+        "text": "Exploratory, unit, and integration testing, defining a testing strategy and writing test documentation, automating E2E and API tests",
+        "description": "An illustration showing testing skills logo"
     }
 ]
+

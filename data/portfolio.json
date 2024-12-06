@@ -1,38 +1,38 @@
 [
     {
         "image": "image4.png",
-        "alt": "An illustration tests",
-        "title": "Tests automatiques",
-        "text": "Automatisation des tests pour une boutique en ligne : rédaction des scripts d'automatisation en JavaScript.",
+        "alt": "An illustration of tests",
+        "title": "Automated Tests",
+        "text": "Automation of tests for an online store: writing automation scripts in JavaScript.",
         "link": "https://github.com/amalkamli/TestsApp.git"
     },
     {
         "image": "image3.png",
-        "alt": "An illustration showing react app",
+        "alt": "An illustration showing a React app",
         "title": "Kasa",
-        "text": "Mise en place des divers composants React : présentation des différentes pages, navigation entre elles, fonctionnalités, et interactions avec tous les éléments interactifs.",
+        "text": "Implementation of various React components: presenting different pages, navigation between them, features, and interactions with all interactive elements.",
         "link": "https://github.com/amalkamli/Logement-Reactapp.git"
     },
     {
         "image": "image5.png",
-        "alt": "An illustration showing Js app",
+        "alt": "An illustration showing a JavaScript app",
         "title": "Sophie Blue",
-        "text": "Page web dynamique avec JavaScript",
+        "text": "Dynamic web page with JavaScript.",
         "link": "https://github.com/amalkamli/Portfolio-architecte-sophie-blue.git"
-    
     },
     {
         "image": "image2.png",
-        "alt": "An illustration showing Js banner",
+        "alt": "An illustration showing a JavaScript banner",
         "title": "Scroll Banner",
-        "text": "Dynamiser le site web statique d'une imprimerie en ajoutant un carrousel interactif à l'aide de JavaScript.",
+        "text": "Enhancing a static printing website by adding an interactive carousel using JavaScript.",
         "link": "https://amalkamli.github.io/imprime-js/"
     },
     {
         "image": "image1.png",
-        "alt": "An illustration showing css and Js app",
+        "alt": "An illustration showing a CSS and JavaScript app",
         "title": "Booki",
-        "text": "Créer des dimensions réactives pour les activités et hébergements de l'application Booki en utilisant HTML et CSS garantit que l'interface utilisateur s'adapte parfaitement à différentes tailles et résolutions d'écran.",
+        "text": "Creating responsive dimensions for activities and accommodations on the Booki app using HTML and CSS ensures the user interface adapts seamlessly to different screen sizes and resolutions.",
         "link": "https://amalkamli.github.io/html-css-page/"
     }   
 ]
+
