@@ -75,17 +75,17 @@ function createPortfolioFromJSON() {
         const card = document.createElement("div");
         card.classList.add("col-lg-4", "mt-4");
         card.innerHTML = `
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/${item.image}" alt="${item.alt}" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">${item.title}</h4>
-                            <p class="card-text">${item.text}</p>
-                            <div class="text-center">
-                                <a href="${item.link}" class="btn btn-success">Lien</a>
-                            </div>
-                        </div>
-                    </div>
-                `;
+        <a href="${item.link}" class="card-link" style="text-decoration: none; color: inherit;">
+            <div class="card portfolioContent">
+                <img class="card-img-top" src="images/${item.image}" alt="${item.alt}" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">${item.title}</h4>
+                    <p class="card-text">${item.text}</p>
+                </div>
+            </div>
+        </a>
+    `;
+    
 
         // Ajoutez la carte à la ligne actuelle
         row.appendChild(card);
