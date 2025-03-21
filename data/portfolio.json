@@ -1,12 +1,5 @@
 [
-    {
-        "image": "image8.png",
-        "alt": "An illustration showing a CSS and JavaScript app",
-        "title": "Design a testing strategy",
-        "text": "PayForge, a finance-focused company, is developing a new financial management product for individuals. As a test consultant within an Agile IT team, my mission is to ensure the product's quality and reliability, meeting the highest standards in the financial sector.",
-        "output": "Output files available upon request"
-    }
-    ,
+   
     {
         "image": "image4.png",
         "alt": "An illustration of tests",
@@ -36,11 +29,18 @@
         "link": "https://amalkamli.github.io/imprime-js/"
     },
     {
-        "image": "image1.png",
+        "image": "bookiprjct.jpg",
         "alt": "An illustration showing a CSS and JavaScript app",
         "title": "Booki",
         "text": "Creating responsive dimensions for activities and accommodations on the Booki app using HTML and CSS ensures the user interface adapts seamlessly to different screen sizes and resolutions.",
         "link": "https://amalkamli.github.io/html-css-page/"
+    },
+     {
+        "image": "image8.png",
+        "alt": "An illustration showing a CSS and JavaScript app",
+        "title": "Design a testing strategy",
+        "text": "PayForge, a finance-focused company, is developing a new financial management product for individuals. As a test consultant within an Agile IT team, my mission is to ensure the product's quality and reliability, meeting the highest standards in the financial sector.",
+        "output": "Output files available upon request"
     }
 
 ]
