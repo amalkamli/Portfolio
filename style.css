@@ -10,12 +10,88 @@
 #about h2,
 #skills h2,
 #portfolio h2,
-#contact h2 {
-    margin-bottom: 3rem;
-}
-#contact {
-    padding-bottom: 4rem;
-}
+/* Contact Section */
+.contact-section {
+    padding: 4rem 2rem;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pricing-hint {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contact-form, .booking-widget {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h3, .booking-widget h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+  }
+  
+  textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  .submit-btn, .calendly-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .submit-btn:hover, .calendly-btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  }
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
