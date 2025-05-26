@@ -98,25 +98,20 @@ function createSkillsFromJSON() {
       });
     });
 }
-// Form Submission
-document.getElementById('projectInquiryForm').addEventListener('submit', function(e) {
-  e.preventDefault();
+document.addEventListener("DOMContentLoaded", function() {
+  const calendlyButton = document.querySelector('[data-calendly-url]');
   
-  // Get form values
-  const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
-  const subject = document.getElementById('subject').value;
-  const message = document.getElementById('message').value;
-
-  // Here you would typically send this data to a server or email service
-  // Example using Formspree (free service): https://formspree.io/
-  console.log('Form submitted:', { name, email, subject, message });
-  
-  // Show success message
-  alert('Thanks for your inquiry! I’ll get back to you within 24 hours.');
-  
-  // Reset form
-  this.reset();
+  calendlyButton.addEventListener('click', function() {
+    // Check if Calendly loaded
+    if (typeof Calendly !== 'undefined') {
+      Calendly.initPopupWidget({
+        url: this.dataset.calendlyUrl
+      });
+    } else {
+      // Fallback: Open in new tab
+      window.open(this.dataset.calendlyUrl, '_blank');
+    }
+  });
 });
 
 // Appelez la fonction pour exécuter le code
