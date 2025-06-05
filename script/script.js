@@ -98,21 +98,8 @@ function createSkillsFromJSON() {
       });
     });
 }
-document.addEventListener("DOMContentLoaded", function() {
-  const calendlyButton = document.querySelector('[data-calendly-url]');
-  
-  calendlyButton.addEventListener('click', function() {
-    // Check if Calendly loaded
-    if (typeof Calendly !== 'undefined') {
-      Calendly.initPopupWidget({
-        url: this.dataset.calendlyUrl
-      });
-    } else {
-      // Fallback: Open in new tab
-      window.open(this.dataset.calendlyUrl, '_blank');
-    }
-  });
-});
+
+ 
 
 // Appelez la fonction pour exécuter le code
 createPortfolioFromJSON();
